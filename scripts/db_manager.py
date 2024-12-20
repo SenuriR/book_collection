@@ -71,6 +71,6 @@ def delete_book(book_id):
     """
     conn = connect()
     cursor = conn.cursor()
-    cursor.execute('DELETE FROM books WHERE id = ?', (book_id,))
+    cursor.execute('DELETE FROM books WHERE id = ?', (book_id,)) # IMPORTANT book_id is what's being looked up...
     conn.commit()
     conn.close()

@@ -9,7 +9,7 @@ def main():
     initialize_db()
     while True:
         print()
-        print("Welcome to Sen's Book Collection Manager")
+        print("Welcome to Sen's Personal Book Collection Manager")
         print("1. Add a Book")
         print("2. List All Books")
         print("3. Search for a Book")
