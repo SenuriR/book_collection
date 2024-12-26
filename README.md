@@ -16,3 +16,9 @@ A simple Python project to manage your personal book collection using SQLite.
 4. Run the CLI:
     navigate to /scripts
     run 'python3 cli.py'
+
+
+
+## TO DO
+- Add "Edit Book" functionality
+- Look into ID situation after deleting book
